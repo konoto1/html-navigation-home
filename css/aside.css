@@ -1,0 +1,17 @@
+aside {
+    background-color: aqua;
+    display: inline-block;
+    width: 120px;
+}
+ul:first-child {
+    padding-top: 10%;
+    padding-bottom: 80%;
+}
+
+ul {
+    padding-top: 20%;
+}
+
+ul:last-child {
+    padding-bottom: 350px;
+}

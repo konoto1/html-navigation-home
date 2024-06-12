@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: calc(100% - 120px);
+    padding-bottom: 45px;
+    float: right;
+}
+
+div {
+    display: inline-block;
+    width: calc((100% - 15% - 120px)/ 3);
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h1 {
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+p:first-child {
+    float: right;
+    display: inline-block;
+    margin: 30px;
+    background-color: yellow;
+}
+
+p {
+    margin: 10px;
+    line-height: 30px;
+}
+
+a {
+    display: inline-block;
+    margin: 20px;
+    background-color: aliceblue;
+}
