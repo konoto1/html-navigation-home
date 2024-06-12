@@ -1,7 +1,6 @@
 aside {
     background-color: aqua;
     display: inline-block;
-    width: 120px;
 }
 ul:first-child {
     padding-top: 10%;
