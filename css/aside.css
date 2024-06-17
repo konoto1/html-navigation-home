@@ -5,12 +5,15 @@ aside {
 ul:first-child {
     padding-top: 10%;
     padding-bottom: 80%;
+    text-align: center;
 }
 
 ul {
     padding-top: 20%;
+    text-align: center;
 }
 
 ul:last-child {
     padding-bottom: 350px;
+    text-align: center;
 }
