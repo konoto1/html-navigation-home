@@ -1,19 +1,25 @@
 aside {
     background-color: white;
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
-ul:first-child {
-    padding-top: 10%;
-    padding-bottom: 80%;
+aside ul {
+    padding: 10px 0;
+    list-style: none;
     text-align: center;
 }
 
-ul {
-    padding-top: 20%;
-    text-align: center;
+aside li:first-child {
+    padding: 0 0 65px;
 }
 
-ul:last-child {
-    padding-bottom: 350px;
-    text-align: center;
+aside li {
+    padding-top: 60px;
+}
+
+aside li .home {
+    background-color: #DDEDEA;
+    padding: 10px;
+    border-radius: 5px;
 }

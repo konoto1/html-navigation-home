@@ -10,53 +10,52 @@ body {
 main {
     background-color: #F7F7F7;
     display: inline-block;
-    float: right;
 }
 
-div {
+main div {
     padding: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 70px;
 }
 
-div div {
+main div div {
     display: flex;
     padding: 20px;
     flex-direction: column;
     border-radius: 10px;
     gap: 0;
 }
-.Dashboard {
+main .Dashboard {
     box-shadow: 0 50px 50px -40px #1A9081;
 }
 
-.Datasets {
+main .Datasets {
     box-shadow: 0 50px 50px -40px #E7BD52;
 }
 
-.Users {
+main .Users {
     box-shadow: 0 50px 50px -40px #E67375;
 }
 
-.Real-time {
+main .Real-time {
     box-shadow: 0 50px 50px -40px #CBA1F3;
 }
 
-.Billing {
+main .Billing {
     box-shadow: 0 50px 50px -40px #90BBF5;
 }
 
-.Campaign {
+main .Campaign {
     box-shadow: 0 50px 50px -40px #F5CB90;
 }
 
-h1 {
+main h1 {
     margin-left: 70px;
     margin-top: 50px;
 }
 
-h2 {
+main h2 {
     display: inline-block;
     width: 50%;
     margin-bottom: 0;
@@ -64,15 +63,15 @@ h2 {
     font-size: 30px;
 }
 
-.first {
+main .first {
     color: white;
 }
 
-.text {
+main .text {
     color: #EDF3FF;
     font-weight: bold;
 }
-p {
+main p {
     display: inline-block;
     width: 80%;
     line-height: 30px;
@@ -82,8 +81,18 @@ p {
     font-weight: bold;
 }
 
-a {
+main div> div:first-child a {
     display: inline-block;
-    float: left;
     margin-top: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+main div div a {
+    display: inline-block;
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
 }
